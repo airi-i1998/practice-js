@@ -1,3 +1,4 @@
+// 関数・条件分岐
 const checkAdult = (age) => {
   if (typeof age !== 'number') {
     return "年齢は数字で入力してください";
@@ -10,7 +11,6 @@ const checkAdult = (age) => {
 }
 console.log(checkAdult('5'));
 
-// 関数・条件分岐
 const checkScore = (score) => {
   if (typeof score !== 'number') {
     return "点数は数字で入力してください";
